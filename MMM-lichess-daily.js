@@ -7,11 +7,15 @@ Module.register("MMM-lichess-daily", {
       bg: "auto",
       width: "224px",
       height: "264px",
+      updateInterval: 60 * 60;
   },
 
   // Define start sequence.
   start: function() {
-      Log.info("Starting module: " + this.name);
+    Log.info("Starting module: " + this.name);
+    setInterval(function() {
+      self.updateDom();
+    }, this.config.updateInterval);
   },
 
   getDom: function() {
