@@ -9,34 +9,34 @@ Embed the lichess.org daily puzzle https://lichess.org/training/daily
 
 ## Config.js entry and options
 
-  {
-    disabled: false,
-    module: 'MMM-lichess-daily',
-    config: {
-      // themes:
-      //   * blue
-      //   * blue2
-      //   * blue3
-      //   * canvas
-      //   * wood
-      //   * wood2
-      //   * wood3
-      //   * maple
-      //   * green
-      //   * marble
-      //   * brown
-      //   * leather
-      //   * grey
-      //   * metal
-      //   * olive
-      //   * purple
-      theme: "auto",
-      
-      // backgrounds:
-      //   * light
-      //   * dark
-      bg: "auto",
-      width: "224px",
-      height: "264px",
-    }
-  },
+    {
+      disabled: false,
+      module: 'MMM-lichess-daily',
+      config: {
+        // themes:
+        //   * blue
+        //   * blue2
+        //   * blue3
+        //   * canvas
+        //   * wood
+        //   * wood2
+        //   * wood3
+        //   * maple
+        //   * green
+        //   * marble
+        //   * brown
+        //   * leather
+        //   * grey
+        //   * metal
+        //   * olive
+        //   * purple
+        theme: "auto",
+        
+        // backgrounds:
+        //   * light
+        //   * dark
+        bg: "auto",
+        width: "224px",
+        height: "264px",
+      }
+    },
