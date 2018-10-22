@@ -13,6 +13,7 @@ Module.register("MMM-lichess-daily", {
   // Define start sequence.
   start: function() {
     Log.info("Starting module: " + this.name);
+    var self = this;
     setInterval(function() {
       self.updateDom();
     }, this.config.updateInterval);
