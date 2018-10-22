@@ -38,6 +38,6 @@ Embed the lichess.org daily puzzle https://lichess.org/training/daily
         bg: "auto",
         width: "224px",
         height: "264px",
-        updateInterval: 60 * 60;
+        updateInterval: 60 * 60 * 1000;
       }
     },

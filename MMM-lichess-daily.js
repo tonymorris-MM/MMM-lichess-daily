@@ -7,7 +7,7 @@ Module.register("MMM-lichess-daily", {
       bg: "auto",
       width: "224px",
       height: "264px",
-      updateInterval: 60 * 60,
+      updateInterval: 60 * 60 * 1000,
   },
 
   // Define start sequence.
