@@ -41,3 +41,7 @@ Embed the lichess.org daily puzzle https://lichess.org/training/daily
         updateInterval: 60 * 60 * 1000;
       }
     },
+
+## MagicMirror
+
+<img src="https://i.imgur.com/Tg9nZt2.jpg" alt="MagicMirror with lichess daily puzzle"/>
