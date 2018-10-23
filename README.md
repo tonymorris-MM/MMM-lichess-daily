@@ -44,4 +44,6 @@ Embed the lichess.org daily puzzle https://lichess.org/training/daily
 
 ## MagicMirror
 
+*better picture coming once mounted :)*
+
 <img src="https://i.imgur.com/Tg9nZt2.jpg" alt="MagicMirror with lichess daily puzzle"/>
